@@ -1,0 +1,39 @@
+//
+//  MGD_PrefixHeader.pch
+//  MGDNavigationControllerDemo
+//
+//  Created by miaoguodong on 16/8/5.
+//  Copyright © 2016年 miaoguodong. All rights reserved.
+//
+
+#ifndef MGD_PrefixHeader_pch
+#define MGD_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MGD_PrefixHeader_pch */
+
+
+#ifndef MacroDefinition_h
+#define MacroDefinition_h
+
+//-------------------获取设备大小-------------------------
+//NavBar高度
+#define NavigationBar_HEIGHT 44
+
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+//-------------------获取设备大小-------------------------
+
+
+
+
+
+
+
+
+#endif
+
