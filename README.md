@@ -1,10 +1,7 @@
-# MGDNavigationControllerDemo HMSegementedController 和 BrowerView 的结合实现 自定义Navigation导航空间。有点小bug，是browerView的frame 问题，下次解决。
-
-
-![github](https://github.com/GDMiao/MGDNavigationControllerDemo/blob/master/Image/QQ20160805-0%402x.png)
 
 #MGDNavigationControllerDemo
 ####MGDNavigationController 是用 HMSegmentedController 和 HFBrowerView 实现的一个分类导航的demo.
+![github](https://github.com/GDMiao/MGDNavigationControllerDemo/blob/master/Image/QQ20160805-0%402x.png)
 #集成控件
   *HMSegmentedControl （https://github.com/HeshamMegid/HMSegmentedControl.git）
     *Supports both text and images
@@ -16,20 +13,19 @@
   *HFBrowserView （https://github.com/GDMiao/HFBrowserView.git）
     *支持页面滚动切换
 
-
 #有问题反馈
 ##在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
-
 ##邮件 903845769@qq.com
 ##QQ: 903845769
 ##cnblogs: http://www.cnblogs.com/ting-miao/</a></li>
 #感激
 ##感谢以下的开源代码,排名不分先后
 
-##HMSegmentedControl](https://github.com/HeshamMegid/HMSegmentedControl.git</a>)
-##HFBrowserView （这部分代码是朋友给我的，具体出处不了解）
+##HMSegmentedControl  (https://github.com/HeshamMegid/HMSegmentedControl.git</a>)
+##HFBrowserView      （这部分代码是朋友给我的，具体出处不了解）
+
 #关于作者
-  var ihubo = { 
-    nickName   : "小饼干是只松鼠" 
-    cnblogs    : "http://www.cnblogs.com/ting-miao/" 
-  }
+  #var ihubo = { 
+  #  nickName   : "小饼干是只松鼠" 
+  #  cnblogs    : "http://www.cnblogs.com/ting-miao/" 
+  #}
