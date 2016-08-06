@@ -3,15 +3,16 @@
 ####MGDNavigationController 是用 HMSegmentedController 和 HFBrowerView 实现的一个分类导航的demo.
 ![github](https://github.com/GDMiao/MGDNavigationControllerDemo/blob/master/Image/QQ20160805-0%402x.png)
 #集成控件
-  *HMSegmentedControl （https://github.com/HeshamMegid/HMSegmentedControl.git）
-    *Supports both text and images
-    *Support horizontal scrolling
-    *Supports advanced title styling with text attributes for font, color, kerning, shadow, etc.
-    *Supports selection indicator both on top and bottom
-    *Supports blocks
-    *Works with ARC and iOS >= 7
-  *HFBrowserView （https://github.com/GDMiao/HFBrowserView.git）
-    *支持页面滚动切换
+
+##HMSegmentedControl （https://github.com/HeshamMegid/HMSegmentedControl.git）
+- Supports both text and images
+- Support horizontal scrolling
+- Supports advanced title styling with text attributes for font, color, kerning, shadow, etc.
+- Supports selection indicator both on top and bottom
+- Supports blocks
+- Works with ARC and iOS >= 7
+##HFBrowserView （https://github.com/GDMiao/HFBrowserView.git）
+- 支持页面滚动切换
 
 #有问题反馈
 ##在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
