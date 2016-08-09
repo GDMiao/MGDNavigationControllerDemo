@@ -28,7 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CGRect hmsegmentedRect = CGRectMake(50, 20, self.view.bounds.size.width - 100, 44);
+    CGRect hmsegmentedRect = CGRectMake(50, 20, self.view.bounds.size.width-100, 44);
     self.segmentedControl = [[HMSegmentedControl alloc]initWithFrame:hmsegmentedRect];
     self.segmentedControl.sectionTitles = @[@"Home",@"Seconed",@"Third"];
     self.segmentedControl.autoresizingMask = UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleWidth;
@@ -45,10 +45,10 @@
         return attString;
     }];
     [self.segmentedControl addTarget:self action:@selector(segmentedControlChangedValue:) forControlEvents:UIControlEventValueChanged];
-    self.navigationItem.titleView = self.segmentedControl;
-//    [self.view addSubview:self.segmentedControl];
+    [self.view addSubview:self.segmentedControl];
     
-    self.browserView = [[HFBrowserView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height-64)];
+    self.browserView = [[HFBrowserView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height - 64)];
+    self.browserView.backgroundColor = [UIColor orangeColor];
     self.browserView.bounces = NO;
     self.browserView.scrollEnabled = YES;
     self.browserView.sourceDelegate = self;
@@ -142,8 +142,9 @@
 }
 
 - (void)refreshCurrentView {
-    UIView *pageView = [self.browserView getCurrentView];
-
+    //当前显示的视图
+    UIView *v = [self.browserView getCurrentView];
+    //可以更新此时图的数据
 }
 
 
